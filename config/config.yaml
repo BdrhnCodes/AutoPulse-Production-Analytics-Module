@@ -1,7 +1,7 @@
 project:
   name: "AutoPulse Manufacturing Analytics"
   phase: 1 # The second one will be about sales.
-  random_seed: 42 # The random seed was added value to have a constant random result.
+  random_seed: 42
 
 date_range:
   start_date: "2024-07-01"
