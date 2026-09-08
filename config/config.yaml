@@ -1,10 +1,10 @@
 project:
   name: "AutoPulse Manufacturing Analytics"
-  phase: 1 # The second one will be about sales.
-  random_seed: 42
+  phase: 1 
+  random_seed: 42 # The random seed was added to ensure consistent and reproducible results.
 
 date_range:
-  start_date: "2024-07-01"
+  start_date: "2024-07-31"
   end_date: "2026-07-31"
 
 brand:
@@ -111,7 +111,8 @@ workstations:
     - "Final Assembly"
     - "Quality Check"
     - "Quality Check"
-  standard_cycle_time_range_minutes: [12, 35]
+  cycle_time_balance_std_minutes: 3.0
+  min_cycle_time_minutes: 8
 
 workers:
   count: 150
@@ -138,16 +139,21 @@ production:
 station_operations:
   downtime_probability_base: 0.045
   downtime_minutes_range: [5, 45]
-  downtime_reason_weights: {"Machine Failure": 0.50, "Material Shortage": 0.30, "Changeover": 0.20}
+  downtime_reason_weights: {"Machine Failure": 0.65, "Material Shortage": 0.35}
   cycle_time_factor_by_skill:
     Junior: {mean: 1.15, std: 0.20}
     Mid:    {mean: 1.00, std: 0.12}
     Senior: {mean: 0.90, std: 0.08}
   downtime_multiplier_by_skill: {Junior: 1.3, Mid: 1.0, Senior: 0.8}
   downtime_multiplier_by_shift: {Morning: 0.9, Evening: 1.0, Night: 1.15}
+  changeover:
+    color_change_downtime_probability: 0.85
+    same_color_downtime_probability: 0.03
+    changeover_minutes_range: [8, 20]
+    # Changeover due to color is one of the facts that affect the time.
 
 defects:
-  base_rate: 0.012 # Base defect rate
+  base_rate: 0.003 # Base defect rate
   skill_multiplier: {Junior: 1.6, Mid: 1.0, Senior: 0.6}
   shift_multiplier: {Morning: 0.9, Evening: 1.0, Night: 1.25}
   downtime_multiplier: 2.0 #  downtime cause 2.0 defects
