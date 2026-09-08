@@ -1,0 +1,16 @@
+# Generated data , reproducible by re-running the pipeline (see README.md)
+data/raw/*.csv
+data/analysis_output/*.csv
+
+# Local SQLite database files
+database/*.db
+database/*.db-*
+
+# Python generated files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter
+.ipynb_checkpoints/
