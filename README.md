@@ -29,13 +29,13 @@ Python (pandas, NumPy, Faker, scikit-learn) · SQLite · SQL · Power BI
 
 ## Project structure
 
-config/ -- single source of truth for all parameters
-data_generation/ -- 8 scripts, run in order (see below)
-sql/ -- schema (01) + reporting views (02)
-database/ -- SQLite setup + data loading
-analysis/ -- SQL/pandas analysis + ML model
-export/ -- final CSV export for Power BI
-data/powerbi_export/ -- what Power BI actually connects to
+config/ --> single source of truth for all parameters
+data_generation/ --> 8 scripts, run in order (see below)
+sql/ --> schema (01) + reporting views (02)
+database/ --> SQLite setup + data loading
+analysis/ --> SQL/pandas analysis + ML model
+export/ --> final CSV export for Power BI
+data/powerbi_export/ --> what Power BI actually connects to
 
 ## How to run it end to end
 pip install -r requirements.txt
@@ -80,7 +80,7 @@ so re-running the full pipeline reproduces identical results.
   benchmarks (~90-96% for a typical automotive line) rather than picked
   arbitrarily.
 - **Rolled Throughput Yield**: even a low per-station defect rate
-  compounds across 20 stations -- the ~92% overall pass rate is the
+  compounds across 20 stations , the ~92% overall pass rate is the
   expected mathematical consequence, not an inflated assumption.
 
 
