@@ -1,0 +1,13 @@
+model_name,segment,trim_name,n_units,avg_material_cost,avg_labor_cost,avg_rework_cost,avg_total_cost
+Jungle Fennec,Hatchback,Base,195,10389.44,340.4,14.15,10743.99
+Jungle Fennec,Hatchback,Comfort,196,10912.78,340.79,13.4,11266.97
+Jungle Fennec,Hatchback,Luxury,191,12573.44,340.64,14.09,12928.17
+Jungle Lynx,Sedan,Base,195,10789.0,340.52,15.11,11144.63
+Jungle Lynx,Sedan,Comfort,193,11243.96,340.59,18.02,11602.57
+Jungle Lynx,Sedan,Luxury,184,12929.72,340.64,15.61,13285.97
+Jungle Owl,EV,Base,193,11474.91,340.25,13.01,11828.18
+Jungle Owl,EV,Comfort,191,12421.04,340.83,23.18,12785.05
+Jungle Owl,EV,Luxury,172,13864.67,339.89,27.09,14231.65
+Jungle Tiger,SUV,Base,196,10204.52,340.31,16.04,10560.87
+Jungle Tiger,SUV,Comfort,196,11132.08,339.63,15.52,11487.22
+Jungle Tiger,SUV,Luxury,180,12406.89,341.44,19.89,12768.21

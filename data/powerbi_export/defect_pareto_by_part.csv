@@ -1,0 +1,17 @@
+part_name,part_category,n_defects,total_rework_cost,cum_defects,cum_pct,is_top_80pct_contributor
+Headliner v2,Interior,438,68699.23,438,14.0,True
+Electric Motor v6,Powertrain,404,299847.16,842,27.0,True
+Battery Pack v2,Electrical,392,42536.12,1234,39.5,True
+Grille v2,Exterior,380,51170.62,1614,51.7,True
+Shock Absorber v3,Chassis,279,49403.79,1893,60.7,True
+Brake Caliper v4,Chassis,257,43646.31,2150,68.9,True
+Rear Bumper v5,Exterior,183,22623.56,2333,74.8,True
+Drive Shaft v4,Powertrain,134,75510.86,2467,79.0,True
+Dashboard Panel v5,Interior,121,17903.9,2588,82.9,False
+ABS Unit v4,Safety,111,11153.31,2699,86.5,False
+Backup Camera v6,Safety,94,10716.83,2793,89.5,False
+Center Console,Interior,89,15046.79,2882,92.3,False
+ECU Module v7,Electrical,71,4049.55,2953,94.6,False
+Door Trim v7,Interior,69,4615.4,3022,96.8,False
+Wiring Harness v6,Electrical,58,6137.9,3080,98.7,False
+Crash Sensor v5,Safety,41,5031.16,3121,100.0,False

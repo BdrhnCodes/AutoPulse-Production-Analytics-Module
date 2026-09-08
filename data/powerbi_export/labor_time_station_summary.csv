@@ -1,0 +1,21 @@
+station_id,station_name,station_type,station_sequence_order,n_days_observed,total_operations,avg_actual_cycle_time,avg_standard_cycle_time,total_downtime_minutes,total_downtime_events,variance_minutes,variance_pct,is_bottleneck
+10,Interior Assembly - Station 10,Interior Assembly,10,731,47630,19.5,17.9,62602.2,2508,1.6,8.9,True
+9,Chassis Assembly - Station 09,Chassis Assembly,9,731,47630,19.54,18.0,65278.7,2570,1.54,8.6,True
+16,Exterior Trim - Station 16,Exterior Trim,16,731,47630,20.12,19.0,58353.2,2373,1.12,5.9,True
+15,Exterior Trim - Station 15,Exterior Trim,15,731,47630,18.69,17.8,59556.5,2386,0.89,5.0,True
+2,Welding - Station 02,Welding,2,731,47630,18.16,17.5,57702.4,2260,0.66,3.8,False
+6,Powertrain Assembly - Station 06,Powertrain Assembly,6,731,47630,16.7,16.3,56174.2,2280,0.4,2.5,False
+14,Electrical Assembly - Station 14,Electrical Assembly,14,731,47630,19.86,19.4,57024.0,2271,0.46,2.4,False
+5,Painting - Station 05,Painting,5,731,47630,16.92,16.6,213384.5,15283,0.32,1.9,False
+8,Chassis Assembly - Station 08,Chassis Assembly,8,731,47630,22.06,21.8,53748.3,2148,0.26,1.2,False
+12,Interior Assembly - Station 12,Interior Assembly,12,731,47630,14.93,14.8,54996.2,2179,0.13,0.9,False
+17,Safety Systems - Station 17,Safety Systems,17,731,47630,17.92,17.8,54742.3,2174,0.12,0.7,False
+1,Welding - Station 01,Welding,1,731,47630,23.89,23.8,55452.7,2167,0.09,0.4,False
+18,Final Assembly - Station 18,Final Assembly,18,731,47630,17.22,17.3,51984.6,2121,-0.08,-0.5,False
+13,Electrical Assembly - Station 13,Electrical Assembly,13,731,47630,15.56,15.7,51625.7,2076,-0.14,-0.9,False
+19,Quality Check - Station 19,Quality Check,19,731,47630,21.96,22.3,53380.1,2123,-0.34,-1.5,False
+3,Welding - Station 03,Welding,3,731,47630,15.02,15.3,52074.2,2080,-0.28,-1.8,False
+4,Painting - Station 04,Painting,4,731,47630,15.17,15.5,213313.3,15236,-0.33,-2.1,False
+7,Powertrain Assembly - Station 07,Powertrain Assembly,7,731,47630,11.35,11.7,52138.7,2050,-0.35,-3.0,False
+20,Quality Check - Station 20,Quality Check,20,731,47630,20.15,21.2,48333.5,1922,-1.05,-5.0,False
+11,Interior Assembly - Station 11,Interior Assembly,11,731,47630,19.27,20.5,45750.8,1823,-1.23,-6.0,False

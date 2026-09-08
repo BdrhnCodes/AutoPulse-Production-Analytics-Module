@@ -1,0 +1,18 @@
+feature,importance
+station_type_Quality Check,0.18189058770715139
+skill_level_Senior,0.15429817799256504
+part_complexity_score,0.11545600239629954
+reliability_score,0.10525899012689993
+downtime_occurred,0.10243802129241868
+skill_level_Mid,0.09801517433486745
+shift_name_Morning,0.05657057567339785
+is_part_tied,0.051359568951521044
+shift_name_Night,0.04993930967178509
+station_type_Welding,0.018239206987902223
+station_type_Painting,0.016792696914405436
+station_type_Powertrain Assembly,0.01047116550890557
+station_type_Interior Assembly,0.009268613132753832
+station_type_Final Assembly,0.008556213087458166
+station_type_Exterior Trim,0.00786854468549341
+station_type_Electrical Assembly,0.00749070423720198
+station_type_Safety Systems,0.00608644729897344

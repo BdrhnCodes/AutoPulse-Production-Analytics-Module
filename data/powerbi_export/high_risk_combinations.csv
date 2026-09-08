@@ -1,0 +1,7 @@
+station_type,part_category,avg_predicted_risk,n_operations,actual_defect_rate
+Exterior Trim,Exterior,0.5412,19237,0.0058
+Powertrain Assembly,Powertrain,0.5358,19068,0.0052
+Chassis Assembly,Chassis,0.5177,19002,0.0056
+Electrical Assembly,Electrical,0.5031,19134,0.0059
+Interior Assembly,Interior,0.4888,28638,0.0051
+Safety Systems,Safety,0.4774,9479,0.005
