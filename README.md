@@ -29,42 +29,42 @@ Python (pandas, NumPy, Faker, scikit-learn) · SQLite · SQL · Power BI
 
 ## Project structure
 
-config/ --> single source of truth for all parameters
-data_generation/ --> 8 scripts, run in order (see below)
-sql/ --> schema (01) + reporting views (02)
-database/ --> SQLite setup + data loading
-analysis/ --> SQL/pandas analysis + ML model
-export/ --> final CSV export for Power BI
-data/powerbi_export/ --> what Power BI actually connects to
+- config/ --> single source of truth for all parameters
+- data_generation/ --> 8 scripts, run in order (see below)
+- sql/ --> schema (01) + reporting views (02)
+- database/ --> SQLite setup + data loading
+- analysis/ --> SQL/pandas analysis + ML model
+- export/ --> final CSV export for Power BI
+- data/powerbi_export/ --> what Power BI actually connects to
 
 ## How to run it end to end
 pip install -r requirements.txt
 
 # 1) Dimensions + BOM
-python data_generation/generate_dimensions.py
-python data_generation/generate_bom.py
+- python data_generation/generate_dimensions.py
+- python data_generation/generate_bom.py
 
 # 2) Production simulation
-python data_generation/generate_production_orders.py
-python data_generation/generate_production_units.py
-python data_generation/generate_station_operations.py
-python data_generation/generate_defects.py
-python data_generation/generate_material_usage.py
-python data_generation/finalize_production_units.py
+- python data_generation/generate_production_orders.py
+- python data_generation/generate_production_units.py
+- python data_generation/generate_station_operations.py
+- python data_generation/generate_defects.py
+- python data_generation/generate_material_usage.py
+- python data_generation/finalize_production_units.py
 
 # 3) Database
-python database/db_setup.py
-python database/load_to_db.py
+- python database/db_setup.py
+- python database/load_to_db.py
 
 # 4) Analysis
-python analysis/labor_time_analysis.py
-python analysis/cost_analysis.py
-python analysis/defect_analysis.py
-python analysis/oee_calculation.py
-python analysis/defect_risk_model.py
+- python analysis/labor_time_analysis.py
+- python analysis/cost_analysis.py
+- python analysis/defect_analysis.py
+- python analysis/oee_calculation.py
+- python analysis/defect_risk_model.py
 
 # 5) Power BI export
-python export/export_powerbi_views.py
+- python export/export_powerbi_views.py
 
 
 Every script uses a fixed random seed (`config.yaml -> project.random_seed`),
