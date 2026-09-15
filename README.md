@@ -112,7 +112,7 @@ I built this project after completing three certificates and a production intern
 - CS50's Introduction to Artificial Intelligence with Python (Harvard University)
 - CS50's Introduction to Databases with SQL (Harvard University)
 - Prepare and Visualize Data with Power BI (Microsoft)
-- Production internship at an automotive parts factory
+- Production internship at an automotive components factory
 
 During my manufacturing internship, I observed the production line and took notes about
 production processes. With those observations and my software background, I developed a
