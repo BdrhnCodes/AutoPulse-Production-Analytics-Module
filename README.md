@@ -85,12 +85,25 @@ so re-running the full pipeline reproduces identical results.
 
 ## Dashboard pages
 
-1. Overview --> KPI cards, pass/rework/fail split, monthly OEE trend
+1. Overview --> KPI cards, pass/rework/fail split, monthly OEE trend 
+
+![Overview Dashboard](docs/dashboard_screenshots/overview.png)
+
 2. Production & Labor --> station bottleneck ranking, downtime over time
+
+![Production Dashboard](docs/dashboard_screenshots/production.png)
+
 3. Quality & Defects --> Pareto analysis, severity trend, ML feature importance, high-risk station/part combinations
+
+![Quality Dashboard](docs/dashboard_screenshots/quality.png)
+
 4. Cost Breakdown --> cost by model/trim, material vs. labor trend, cost matrix
+
+![Cost Dashboard](docs/dashboard_screenshots/cost.png)
+
 5. OEE Panel --> Availability/Performance/Quality trend, OEE gauge, station ranking
 
+![OEE Dashboard](docs/dashboard_screenshots/oee.png)
 
 ## Author's note
 
